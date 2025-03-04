@@ -2,6 +2,11 @@
 bin/
 obj/
 
+# Debug/Release binary files
+*.dll
+*.exe
+*.pdb
+
 # User-specific files
 *.user
 *.suo
@@ -17,3 +22,10 @@ packages/
 
 # JetBrains Rider config
 .idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
