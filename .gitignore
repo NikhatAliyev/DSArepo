@@ -1,4 +1,4 @@
-# .NET Core build directories
+# .NET build directories
 bin/
 obj/
 
@@ -6,6 +6,15 @@ obj/
 *.dll
 *.exe
 *.pdb
+*.json
+
+# .NET Core temporary files
+*.cache
+*.lock.json
+project.assets.json
+project.nuget.cache
+*.deps.json
+*.runtimeconfig.json
 
 # User-specific files
 *.user
@@ -13,9 +22,6 @@ obj/
 
 # VS Code settings
 .vscode/
-
-# Packages folder
-packages/
 
 # Visual Studio for Mac
 .vs/
