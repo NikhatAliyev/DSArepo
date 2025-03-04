@@ -1,6 +1,19 @@
-*.sln
-*.csproj
-*.user
-*.vs/
+# .NET Core build directories
 bin/
 obj/
+
+# User-specific files
+*.user
+*.suo
+
+# VS Code settings
+.vscode/
+
+# Packages folder
+packages/
+
+# Visual Studio for Mac
+.vs/
+
+# JetBrains Rider config
+.idea/
